@@ -1,0 +1,26 @@
+{
+  "name": "app",
+  "main": "/app/index.html",
+  "window": {
+    "title": "Let me get That Subtitle!",
+    "toolbar": false,
+    "width": 400,
+    "height": 300,
+    "frame": true,
+    "min_width": 400,
+    "min_height": 300,
+    "max_width": 400,
+    "max_height": 300
+  },
+  "version": "0.0.2",
+  "author": "Romulo Santos <romulobr@gmail.com>",
+  "description": "a simple zero-configuration subtitle fetcher",
+  "dependencies": {
+    "request": "~2.34.0",
+    "underscore": "~1.6.0",
+    "subtitles-mixer": "0.0.6",
+    "subtitles-downloader": "^0.1.0",
+    "async": "^0.7.0",
+    "glob": "^3.2.9"
+  }
+}

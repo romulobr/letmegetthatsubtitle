@@ -28,7 +28,7 @@
   <select id="language"
       data-bind="options:languages,optionsText:function(item){
       return item.languageName+' ('+item.subLanguageId+')';
-      },optionsValue:'subLanguageId',optionsCaption:'Select your Language'"></select>
+      },optionsValue:'subLanguageId',optionsCaption:'Select your Language', value:selectedLanguage"></select>
 
 <div id="drop-area" class="text-center" data-bind="css:{loading: isLoading, dropping: isDropping}">
   <h1 data-bind="text: dragMessage"></h1>
